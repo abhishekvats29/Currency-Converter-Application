@@ -1,0 +1,87 @@
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(47, 46, 46);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: black;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0px 8px whitesmoke;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  color: whitesmoke;
+}
+
+.react-select__control {
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-shadow: none;
+}
+
+.react-select__menu {
+  border-radius: 6px;
+}
+
+.react-select__option {
+  display: flex;
+  align-items: center;
+}
+
+.react-select__option--is-focused {
+  background-color: #f0f0f0;
+}
+
+.react-select__option--is-selected {
+  background-color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type="number"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
